@@ -5,6 +5,7 @@
     <title>Run Buddy</title>
 </head>
 
+<body>
 <!--This is the header section and the nav section in the header section --> 
 <header>
     <h1>RUN BUDDY</h1>
@@ -21,26 +22,46 @@
 <!--Div element for the main section of the page-->
 <div>
     <!--Entry form section-->
-    <section>
+    <article>
         <div>
             <h1>Get Started Today!</h1>
             <p>Fill out this form and one of our trainers will schedule a consult.</p>
-            <p>Enter full name:</p>
-            <p>Enter email address:</p>
-            <p>Enter a telephone number:</p>
-            <p>Have you worked out with a trainer before? </p>
+            <!--Form for user input-->
+            <form>
+                <label for="fname">Enter full name: </label>
+                <br>
+                <input type="text"> 
+                <br>
+                <label for="email">Enter email address:</label>
+                <br>
+                <input type="email">
+                <br>
+                <label for="telephone">Enter telephone number</label>
+                <br>
+                <input type="tel">
+                <br>
+                <p>Have you worked out with a trainer before? Yes <input type="radio"> No <input type="radio"</p>
+
+
+                <br>
+                <p>I acknowledge that i am at least 18 years of age.<input type="checkbox"></input></p>
+
+
+            </form>
+            
+            
             <p>I acknowledge that i am at least 18 years of age.</p>
             <button>Get Running</button>
         </div>
-    </section>
+    </article>
 
     <!-- What we do section-->
-    <section>
+    <article>
         <h1>What We Do</h1>
         <p>This is a sample text of what we do and what kind of services we provide</p>
-    </section>
+    </article>
        <!--What you do Section-->
-    <section>
+    <article>
         <h1>What You Do</h1>
         
         <!--Defining a new section for Steps-->
@@ -66,16 +87,16 @@
             <h2>Step 4 : See Results.</h2>
             <p>Bi-weekly checkings with your trainer will keep you focused.</p>
         </section>
-    </section>
+    </article   >
 
     <!--Meet the trainers Section-->
-    <section>
+    <article>
         <h1>Meet the Trainers</h1>
 
 
-    </section>
+    </article>
    <!--Reach Out Section-->
-   <section>
+   <article>
        <h1>Reach Out</h1>
        <section>
          <map></map>
@@ -93,7 +114,7 @@
 
            </address>
        </article>
-   </section>
+    </article>
 </div>
 <footer>
     <article>
@@ -101,9 +122,9 @@
 
     </article>
     <article>
-        <a href="">Read Our Privacy Policy </a>
+        <a href="www.ucberkeley.edu">Read Our Privacy Policy </a>
         <p>2020 Run buddy, Inc.</p>
     </article>
 </footer>
-
+</body>
 </html>
