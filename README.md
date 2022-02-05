@@ -1,8 +1,7 @@
-# Run-Buddy
-## Purpose
-A website that offers fitness training services.
-Build by Vishal Mangla
+# Run Buddy, Inc
 
+## Purpose
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
@@ -11,5 +10,7 @@ Build by Vishal Mangla
 ## Website
 https://vishalmangla.github.io/run-buddy/
 
-##Contribution
-Made with Love by Vishal Mangla
+## Contribution
+Made with ❤️ by [your name]
+
+### ©️2019 Run Buddy, Inc
